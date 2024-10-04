@@ -1,4 +1,7 @@
 package com.matchcode.todo.model
 
-class TodoItem {
-}
+data class TodoItem(
+    val id: Int,
+    var title: String,
+    var isCompleted: Boolean = false
+)
